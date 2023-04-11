@@ -1,0 +1,56 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PKSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PKDemoSDK",
+        "printedName": "PKDemoSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "testFunc",
+            "printedName": "testFunc()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5PKSDK9PKDemoSDKV8testFuncyyFZ",
+            "mangledName": "$s5PKSDK9PKDemoSDKV8testFuncyyFZ",
+            "moduleName": "PKSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5PKSDK9PKDemoSDKV",
+        "mangledName": "$s5PKSDK9PKDemoSDKV",
+        "moduleName": "PKSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

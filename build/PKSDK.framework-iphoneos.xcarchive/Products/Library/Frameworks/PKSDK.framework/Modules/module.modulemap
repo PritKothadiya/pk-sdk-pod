@@ -1,0 +1,11 @@
+framework module PKSDK {
+  umbrella header "PKSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PKSDK.Swift {
+  header "PKSDK-Swift.h"
+  requires objc
+}
