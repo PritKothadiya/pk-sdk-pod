@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PKSDKDemo"
-  spec.version      = "2.0.0"
+  spec.version      = "3.0.0"
   spec.summary      = "A short description of PKSDKDemo"
 
   # This description is used to generate tags and improve search results.
@@ -78,8 +78,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "https://github.com/PritKothadiya/pk-sdk-pod/releases/download/2.0.0/PKSDK.zip" }
+  spec.source       = { :http => "https://github.com/PritKothadiya/pk-sdk-pod/releases/download/3.0.0/PKSDK.zip" }
 
+  spec.swift_versions = "5.0"
   spec.vendored_frameworks = "PKSDK.xcframework"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
